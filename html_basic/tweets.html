@@ -4,82 +4,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tweets Page</title>
-    <script
-      async
-      src="https://platform.twitter.com/widgets.js"
-      charset="utf-8"
-    ></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </head>
   <body>
-    <!-- Level 1 Heading -->
-    <h1>Check Out My Tweets</h1>
+    <!-- Header with navigation -->
+    <header>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tweets.html">Tweets</a></li>
+      </ul>
+    </header>
 
-    <!-- Embedded Tweet -->
-    <blockquote class="twitter-tweet">
-      <p lang="en" dir="ltr">
-        Here’s the official documentation from Twitter about embedding single
-        tweets in a webpage’s HTML code.
-        <a
-          href="https://twitter.com/TwitterDev/status/1293593516040269825?ref_src=twsrc%5Etfw"
-          >https://twitter.com/TwitterDev/status/1293593516040269825</a
-        >
+    <!-- Main content -->
+    <main>
+      <article>
+        <!-- Level 1 Heading -->
+        <h1>Check Out My Tweets</h1>
+
+        <!-- Embedded Tweet -->
+        <blockquote class="twitter-tweet">
+          <p lang="en" dir="ltr">
+            Here’s the official documentation from Twitter about embedding single
+            tweets in a webpage’s HTML code.
+            <a href="https://twitter.com/TwitterDev/status/1293593516040269825?ref_src=twsrc%5Etfw"
+              >https://twitter.com/TwitterDev/status/1293593516040269825</a
+            >
+          </p>
+          &mdash; Twitter Dev (@TwitterDev)
+          <a href="https://twitter.com/TwitterDev/status/1293593516040269825?ref_src=twsrc%5Etfw"
+            >August 12, 2020</a
+          >
+        </blockquote>
+
+        <!-- Other content (Optional) -->
+        <p>
+          You can always find interesting tweets here. Stay tuned for more updates!
+        </p>
+      </article>
+
+      <aside>
+        <p>Placeholder to add comment thread later</p>
+      </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        Made by Olatilewa Emmanuel Olatoye - 
+        <a href="https://example.com" target="_blank">here</a>
       </p>
-      &mdash; Twitter Dev (@TwitterDev)
-      <a
-        href="https://twitter.com/TwitterDev/status/1293593516040269825?ref_src=twsrc%5Etfw"
-        >August 12, 2020</a
-      >
-    </blockquote>
-
-    <!-- Link back to index.html -->
-    <p>
-      <a href="index.html">Go back to the homepage</a>
-    </p>
-
-    <!-- First paragraph -->
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non
-      neque id nisl fringilla dapibus vel eget felis. Phasellus varius odio a
-      neque pretium, a bibendum risus faucibus.
-    </p>
-
-    <!-- Level 2 Heading -->
-    <h2>About This Page</h2>
-
-    <!-- Second paragraph -->
-    <p>
-      This is a simple web page created to demonstrate basic HTML structure. The
-      page includes multiple levels of headings and a clickable image that links
-      to an external website. HTML is fundamental in web development as it
-      provides the structure for web content.
-    </p>
-
-    <!-- Level 3 Heading -->
-    <h3>Interesting Facts</h3>
-
-    <!-- Third paragraph -->
-    <p>
-      Did you know that HTML stands for HyperText Markup Language? It was first
-      created by Tim Berners-Lee in 1991, and it has since become the standard
-      markup language for creating web pages. Every webpage you visit on the
-      internet is made up of HTML.
-    </p>
-
-    <!-- Fourth paragraph -->
-    <p>
-      If you want to learn more about web development, there are many resources
-      online that can help you get started. With the right skills, you can build
-      beautiful, interactive websites that are used by millions of people around
-      the world.
-    </p>
-
-    <!-- Clickable Image linking to an external URL -->
-    <a href="#" target="_blank">
-      <img
-        src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png"
-        alt="Clickable Image"
-        width="300"
-      />
-    </a>
+    </footer>
   </body>
 </html>
