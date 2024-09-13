@@ -3,11 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sample Page</title>
+    <title>Tweets Page</title>
+    <script
+      async
+      src="https://platform.twitter.com/widgets.js"
+      charset="utf-8"
+    ></script>
   </head>
   <body>
     <!-- Level 1 Heading -->
-    <h1>Welcome to My Web Page</h1>
+    <h1>Check Out My Tweets</h1>
+
+    <!-- Embedded Tweet -->
+    <blockquote class="twitter-tweet">
+      <p lang="en" dir="ltr">
+        Here’s the official documentation from Twitter about embedding single
+        tweets in a webpage’s HTML code.
+        <a
+          href="https://twitter.com/TwitterDev/status/1293593516040269825?ref_src=twsrc%5Etfw"
+          >https://twitter.com/TwitterDev/status/1293593516040269825</a
+        >
+      </p>
+      &mdash; Twitter Dev (@TwitterDev)
+      <a
+        href="https://twitter.com/TwitterDev/status/1293593516040269825?ref_src=twsrc%5Etfw"
+        >August 12, 2020</a
+      >
+    </blockquote>
+
+    <!-- Link back to index.html -->
+    <p>
+      <a href="index.html">Go back to the homepage</a>
+    </p>
 
     <!-- First paragraph -->
     <p>
@@ -54,10 +81,5 @@
         width="300"
       />
     </a>
-
-    <!-- Link to tweets.html -->
-    <p>
-      <a href="tweets.html">View my tweets</a>
-    </p>
   </body>
 </html>
